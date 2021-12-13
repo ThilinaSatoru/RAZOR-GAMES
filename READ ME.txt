@@ -1,0 +1,2 @@
+create batabase 'razor'
+then import razor.sql in phpmyadmin
