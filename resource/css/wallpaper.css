@@ -1,0 +1,36 @@
+        #container {
+            align-items: center;
+            background: #333;
+            bottom: 0;
+            display: none;
+            left: 0;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        #container img {
+            position: absolute;
+            /* Change to 'cover' to fill the space */
+            object-fit: contain;
+            /* Remove 'max-' to fill the space*/
+            max-height: 100%;
+            max-width: 100%;
+        }
+
+        #container .closebtn {
+            transition: transform 0.2s;
+            cursor: pointer;
+            font-size: 100px;
+            padding: 30px;
+            position: fixed;
+            right: 15px;
+            top: 10px;
+            z-index: 1;
+        }
+
+        #container .closebtn:hover {
+            transition: transform 0.2s;
+            transform: scale(1.5);
+        }

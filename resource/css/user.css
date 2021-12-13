@@ -1,0 +1,172 @@
+.header {
+    width: 100%;
+    color: #fff;
+    background: #252525;
+    text-align: center;
+    border-bottom: 4px solid #200935;
+    padding: 20px;
+}
+
+.header ion-icon {
+    text-decoration: none;
+    font-size: 30px !important;
+}
+
+.header ion-icon:hover {
+    text-decoration: none !important;
+    color: #0f0;
+}
+
+.header h2 {
+    color: #0f0;
+}
+
+.header a,
+.content a,
+.admin-links a {
+    color: #D0D0D0;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+.header a:hover,
+.content a:hover,
+.admin-links a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.view-users {
+    color: gray;
+    width: auto;
+    padding: 10px;
+    background-color: #252525;
+    overflow: auto;
+}
+
+.view-users th {
+    text-align: center;
+    color: #E0E0E0;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.view-users td {
+    text-align: left;
+    color: #A7A7A7;
+    padding: 8px 49px;
+    font-weight: 300;
+}
+
+.data {
+    width: 470px;
+    height: 200px;
+    overflow: auto;
+    text-justify: none;
+}
+
+form,
+.content {
+    margin: 0px 50px;
+    background: #252525;
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.input-group,
+.input-file {
+    margin: 10px 0;
+    padding-left: 0 30px;
+}
+
+
+
+#user_type {
+    padding: 5px 20px !important;
+}
+
+.input-group input,
+#user_type {
+    margin: 10px 0;
+    color: #fff;
+    background: #000;
+    height: 30px;
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.img-box-L {
+    margin-top: 20px;
+    width: auto;
+    display: inline-block;
+    float: left;
+
+}
+
+.img-box-R {
+    margin: 20px;
+    width: 200px;
+    min-height: 200px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.img-box-L input[type="file"] {
+    font-size: 17px;
+    width: 80%;
+}
+
+.bton {
+    width: 100%;
+}
+
+.bton button {
+    margin: 0;
+    width: 100%;
+    height: 35px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #44D62C !important;
+    text-align: center;
+    background: #000;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+.profile_info img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    float: left;
+}
+
+.profile_info div {
+    display: inline-block;
+    margin: 5px;
+}
+
+.profile_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}

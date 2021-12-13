@@ -1,0 +1,58 @@
+.slider-container {
+    width: auto;
+    margin: 0;
+    height: 600px;
+}
+
+.carousel {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    height: 50%;
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: all 0.3s;
+    transform: translate(0%);
+}
+
+/*.slider section {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.slide-sec {
+    margin: 0 !important;
+}
+
+.controls .arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.arrow.left {
+    left: 14px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+.price {
+    color: #fff;
+    padding: 10px;
+}
