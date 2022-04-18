@@ -10,8 +10,6 @@ My First Web project using PHP, MySQL, CSS. `RAZOR GAMES`
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [PHP](https://www.php.net/)
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
@@ -19,16 +17,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ### Tools
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [WampServer](https://www.wampserver.com/en/)
 - [Brackets IDE](https://brackets.io/)
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Dowmload and install wampserver and start the service._
 
-1. Run wampserver.
+1. Start wampserver.
 2. Clone the repo to `C:\wamp64\www\RAZOR`
 
    ```sh
