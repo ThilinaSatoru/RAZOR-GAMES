@@ -43,3 +43,13 @@ _Dowmload and install wampserver and start the service._
    ```
 
 ![alt text](resource/img/img/punk.PNG "image tit")
+
+
+
+## Shopping Cart
+
+![alt text](resource/img/img/cart.PNG "image tit")
+
+## Admin Panel
+
+![alt text](resource/img/img/admin.PNG "image tit")
