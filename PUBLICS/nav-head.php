@@ -1,10 +1,11 @@
-<?php session_start();
+<?php
+session_start();
 include('../DB/connection.php');
-include('../FUNCTIONS/functions.php') ;
+include('../FUNCTIONS/functions.php');
 include('../pages/cart_index.php');
 ?>
 
-<link rel="stylesheet" type="text/css" href="../resource/css/style.cs">
+<link rel="stylesheet" type="text/css" href="../resource/css/style.css">
 <link rel="stylesheet" type="text/css" href="../vendors/css/grid/col.css">
 <link rel="stylesheet" type="text/css" href="../vendors/css/grid/2cols.css">
 

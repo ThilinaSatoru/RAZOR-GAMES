@@ -1,5 +1,5 @@
 <?php
-   $db = mysqli_connect("localhost","root","","razor");
+   $db = mysqli_connect("localhost", "root", "root", "razor");
 
 
     if (mysqli_connect_errno())
